@@ -3,9 +3,9 @@
 [![Build](https://github.com/LykosAI/StabilityMatrix/actions/workflows/build.yml/badge.svg)](https://github.com/LykosAI/StabilityMatrix/actions/workflows/build.yml)
 [![Discord Server](https://img.shields.io/discord/1115555685476868168?logo=discord&logoColor=white&label=Discord%20Server)](https://discord.com/invite/TUrgfECxHz)
 
-[![Latest Stable](https://img.shields.io/github/v/release/LykosAI/StabilityMatrix?label=Latest%20Stable&link=https%3A%2F%2Fgithub.com%2FLykosAI%2FStabilityMatrix%2Freleases%2Flatest)][release]
-[![Latest Preview](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.lykos.ai%2Fupdate-v3.json&query=%24.updates.preview%5B%22win-x64%22%5D.version&prefix=v&label=Latest%20Preview&color=b57400&cacheSeconds=60&link=https%3A%2F%2Flykos.ai%2Fdownloads)](https://lykos.ai/downloads)
-[![Latest Dev](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.lykos.ai%2Fupdate-v3.json&query=%24.updates.development%5B%22win-x64%22%5D.version&prefix=v&label=Latest%20Dev&color=880c21&cacheSeconds=60&link=https%3A%2F%2Flykos.ai%2Fdownloads)](https://lykos.ai/downloads)
+[![Neueste stabile Version](https://img.shields.io/github/v/release/LykosAI/StabilityMatrix?label=Latest%20Stable&link=https%3A%2F%2Fgithub.com%2FLykosAI%2FStabilityMatrix%2Freleases%2Flatest)][release]
+[![Neueste Vorschau](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.lykos.ai%2Fupdate-v3.json&query=%24.updates.preview%5B%22win-x64%22%5D.version&prefix=v&label=Latest%20Preview&color=b57400&cacheSeconds=60&link=https%3A%2F%2Flykos.ai%2Fdownloads)](https://lykos.ai/downloads)
+[![Neueste Entwicklerversion](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.lykos.ai%2Fupdate-v3.json&query=%24.updates.development%5B%22win-x64%22%5D.version&prefix=v&label=Latest%20Dev&color=880c21&cacheSeconds=60&link=https%3A%2F%2Flykos.ai%2Fdownloads)](https://lykos.ai/downloads)
 
 [release]: https://github.com/LykosAI/StabilityMatrix/releases/latest
 [download-win-x64]: https://github.com/LykosAI/StabilityMatrix/releases/latest/download/StabilityMatrix-win-x64.zip
@@ -35,17 +35,17 @@
 [civitai]: https://civitai.com/
 [huggingface]: https://huggingface.co/
 
-![Header image for Stability Matrix, Multi-Platform Package Manager and Inference UI for Stable Diffusion](https://cdn.lykos.ai/static/sm-banner-rounded.webp)
+![Header-Bild für Stability Matrix, Multi-Plattform-Paketmanager und Inferenz-Benutzeroberfläche für Stable Diffusion](https://cdn.lykos.ai/static/sm-banner-rounded.webp)
 
 [![Windows](https://img.shields.io/badge/Windows%2010,%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)][download-win-x64]
 [![Linux (AppImage)](https://img.shields.io/badge/Linux%20(AppImage)-FCC624?style=for-the-badge&logo=linux&logoColor=black)][download-linux-appimage-x64]
 [![Arch Linux (AUR)](https://img.shields.io/badge/Arch%20Linux%20(AUR)-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)][download-linux-aur-x64]
-[![macOS](https://img.shields.io/badge/mac%20os%20%28apple%20silicon%29-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)][download-macos-arm64]
+[![macOS](https://img.shields.io/badge/mac%20os%20(apple%20silicon)-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)][download-macos-arm64]
 
-Multi-Platform Package Manager and Inference UI for Stable Diffusion
+Multi-Plattform-Paketmanager und Inferenz-Benutzeroberfläche für Stable Diffusion
 
-### 🖱️ One click install and update for Stable Diffusion Web UI Packages
-- Supports:
+### 🖱️ Ein-Klick-Installation und -Update für Stable Diffusion Web UI Pakete
+- Unterstützt:
   - [Stable Diffusion WebUI reForge][reforge], [Stable Diffusion WebUI Forge][forge], [Automatic 1111][auto1111], [Automatic 1111 DirectML][auto1111-directml], [SD Web UI-UX][webui-ux], [SD.Next][sdnext]
   - [Fooocus][fooocus], [Fooocus MRE][fooocus-mre], [Fooocus ControlNet SDXL][fooocus-controlnet], [Ruined Fooocus][ruined-fooocus], [Fooocus - mashb1t's 1-Up Edition][fooocus-mashb1t]
   - [ComfyUI][comfy]
@@ -55,93 +55,95 @@ Multi-Platform Package Manager and Inference UI for Stable Diffusion
   - [SDFX][sdfx]
   - [Kohya's GUI][kohya-ss]
   - [OneTrainer][onetrainer]
-- Manage plugins / extensions for supported packages ([Automatic1111][auto1111], [Comfy UI][comfy], [SD Web UI-UX][webui-ux], and [SD.Next][sdnext])
-- Easily install or update Python dependencies for each package
-- Embedded Git and Python dependencies, with no need for either to be globally installed
-- Fully portable - move Stability Matrix's Data Directory to a new drive or computer at any time
+- Plugins/Erweiterungen für unterstützte Pakete verwalten ([Automatic1111][auto1111], [Comfy UI][comfy], [SD Web UI-UX][webui-ux], und [SD.Next][sdnext])
+- Einfach Python-Abhängigkeiten für jedes Paket installieren oder aktualisieren
+- Eingebettete Git- und Python-Abhängigkeiten, keine globale Installation erforderlich
+- Vollständig portabel - Verschieben des Stability Matrix-Datenverzeichnisses auf ein neues Laufwerk oder einen neuen Computer jederzeit möglich
 
-### ✨ Inference - A Reimagined Interface for Stable Diffusion, Built-In to Stability Matrix
-- Powerful auto-completion and syntax highlighting using a formal language grammar
-- Workspaces open in tabs that save and load from `.smproj` project files
+### ✨ Inferenz - Eine neu gestaltete Oberfläche für Stable Diffusion, in Stability Matrix integriert
+- Leistungsstarke Autovervollständigung und Syntaxhervorhebung mithilfe einer formalen Sprachgrammatik
+- Arbeitsbereiche öffnen sich in Registerkarten, die von `.smproj`-Projektdateien gespeichert und geladen werden
 
 ![](https://cdn.lykos.ai/static/sm-banner-inference-rounded.webp)
 
-- Customizable dockable and float panels
-- Generated images contain Inference Project, ComfyUI Nodes, and A1111-compatible metadata
-- Drag and drop gallery images or files to load states
+- Anpassbare, andockbare und schwebende Fenster
+- Generierte Bilder enthalten Inferenzprojekt-, ComfyUI-Knoten- und A1111-kompatible Metadaten
+- Drag & Drop-Galeriebilder oder Dateien zum Laden von Zuständen
 
 <p align="center">
   <img style="width: 80%; height: 80%" src="https://github.com/LykosAI/StabilityMatrix/assets/13956642/4341cc34-a584-4e9c-bb3b-276009bdae80" alt=""/>
 </p>
 
-### 🚀 Launcher with syntax highlighted terminal emulator, routed GUI input prompts
-- Launch arguments editor with predefined or custom options for each Package install
-- Configurable Environment Variables
+### 🚀 Launcher mit Syntax-hervorgehobenen Terminalemulator, geroutete GUI-Eingabeaufforderungen
+- Startargumente-Editor mit vordefinierten oder benutzerdefinierten Optionen für jede Paketinstallation
+- Konfigurierbare Umgebungsvariablen
 
 <p align="center">
   <img style="width: 80%; height: 80%" src="https://github.com/LykosAI/StabilityMatrix/assets/13956642/75456866-9d95-47c6-8c0a-fdc19443ee02" alt=""/>
 </p>
 
-### 🗃️ Checkpoint Manager, configured to be shared by all Package installs
-- Option to find CivitAI metadata and preview thumbnails for new local imports
+### 🗃️ Checkpoint-Manager, konfiguriert zur gemeinsamen Nutzung durch alle Paketinstallationen
+- Option zum Auffinden von CivitAI-Metadaten und Vorschaubildern für neue lokale Importe
 
-### ☁️ Model Browser to import from [CivitAI][civitai] and [HuggingFace][huggingface]
-- Automatically imports to the associated model folder depending on the model type
-- Downloads relevant metadata files and preview image
-- Pause and resume downloads, even after closing the app
+### ☁️ Modell-Browser zum Importieren von [CivitAI][civitai] und [HuggingFace][huggingface]
+- Automatischer Import in den zugehörigen Modellordner, abhängig vom Modelltyp
+- Lädt relevante Metadateien und Vorschaubilder herunter
+- Downloads können pausiert und fortgesetzt werden, auch nach dem Schließen der App
 
 <p align="center">
-  <img style="width: 80%; height: 80%" src="https://github.com/LykosAI/StabilityMatrix/assets/13956642/30b9f610-6033-4307-8d92-7d72b93cd73e" alt=""/>
+  <img style="width: 80%; height: 80%" src="https://github.com/LykosAI/StabilityMatrix/assets/13956642/30b9f610-6033-4307-8d92-7d72
+
+b93cd73e" alt=""/>
 </p>
 
-### Shared model directory for all your packages
-- Import local models by simple drag and drop
-- Option to automatically find CivitAI metadata and preview thumbnails for new local imports
+### Gemeinsames Modellverzeichnis für alle deine Pakete
+- Lokale Modelle durch einfaches Drag & Drop importieren
+- Option, automatisch CivitAI-Metadaten und Vorschaubilder für neue lokale Importe zu finden
 
 <p align="center">
   <img style="width: 80%; height: 80%" src="https://github.com/LykosAI/StabilityMatrix/assets/13956642/d42d1c53-67a4-45a0-b009-21400d44e17e" alt=""/>
 </p>
 
-- Find connected metadata for existing models
+- Verbundene Metadaten für bestehende Modelle finden
 <p align="center">
   <img style="width: 80%; height: 80%" src="https://cdn.lykos.ai/static/sc-checkpoints-find-connected.gif" alt=""/>
 </p>
 
-## Localization
-Stability Matrix is now available in the following languages, thanks to our community contributors:
-- 🇺🇸 English
+## Lokalisierung
+Stability Matrix ist dank unserer Community-Beitragenden jetzt in den folgenden Sprachen verfügbar:
+- 🇺🇸 Englisch
 - 🇯🇵 日本語 
   - kgmkm_mkgm
 - 🇨🇳 中文（简体，繁体）
   - jimlovewine
-- 🇮🇹 Italiano
+- 🇮🇹 Italienisch
   - Marco Capelli
-- 🇫🇷 Français
+- 🇫🇷 Französisch
   - eephyne
   - Greg
-- 🇪🇸 Español
+- 🇪🇸 Spanisch
   - Carlos Baena 
   - Lautaroturina
-- 🇷🇺 Русский
+- 🇷🇺 Russisch
   - aolko
   - den1251
-- 🇹🇷 Türkçe
+- 🇹🇷 Türkisch
   - Progesor
 - 🇩🇪 Deutsch
   - Mario da Graca
-- 🇵🇹 Português
+- 🇵🇹 Portugiesisch
   - nextosai
-- 🇧🇷 Português (Brasil)
+- 🇧🇷 Portugiesisch (Brasilien)
   - jbostroski
   - thiagojramos
-- 🇰🇷 한국어
+- 🇰🇷 Koreanisch
   - maakcode
 
-If you would like to contribute a translation, please create an issue or contact us on Discord. Include an email where we'll send an invite to our [POEditor](https://poeditor.com/) project.
+Wenn du eine Übersetzung beitragen möchtest, erstelle bitte ein Issue oder kontaktiere uns auf Discord. Gib eine E-Mail-Adresse an, an die wir eine Einladung zu unserem [POEditor](https://poeditor.com/) Projekt senden können.
 
-## Disclaimers
-All trademarks, logos, and brand names are the property of their respective owners. All company, product and service names used in this document and licensed applications are for identification purposes only. Use of these names, trademarks, and brands does not imply endorsement.
+## Haftungsausschlüsse
+Alle Marken, Logos und Markennamen sind Eigentum ihrer jeweiligen Inhaber. Alle in diesem Dokument und lizenzierten Anwendungen verwendeten Firmen-, Produkt- und Dienstleistungsnamen dienen nur zur Identifikation. Die Verwendung dieser Namen, Marken und Logos impliziert keine Befürwortung.
 
-## License
+## Lizenz
 
-This repository maintains the latest source code release for Stability Matrix, and is licensed under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html). Binaries and executable releases are licensed under the [End User License Agreement](https://lykos.ai/license).
+Dieses Repository enthält den neuesten Quellcode-Release von Stability Matrix und ist unter der [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) lizenziert. Binär- und ausführbare Veröffentlichungen sind unter der [Endbenutzer-Lizenzvereinbarung](https://lykos.ai/license) lizenziert.
